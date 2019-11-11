@@ -1,0 +1,6 @@
+#!/bin/sh
+# postinst
+
+chmod 0644 /usr/lib/systemd/system/reverse-proxy.service
+systemctl enable reverse-proxy
+systemctl start reverse-proxy
