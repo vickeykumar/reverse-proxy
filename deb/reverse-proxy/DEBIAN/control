@@ -3,6 +3,5 @@ Version: 1.0-Beta
 Section: base
 Priority: optional
 Architecture: all
-Depends: serveo
 Maintainer: Vickey Kumar
 Description: reverse-proxy service
